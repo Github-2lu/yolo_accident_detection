@@ -1,0 +1,23 @@
+1. create a virtual environment
+python3 -m venv virt
+
+2. install torch cpu ##important not gpu
+python3 -m pip install --pre torch torchvision --force-reinstall --index-url https://download.pytorch.org/whl/nightly/cpu
+
+3. install ultralytics
+pip install ultralytics
+
+4. install cvzone
+pip install cvzone
+
+5. install pyinstaller
+pip install pyinstaller
+
+6. install dill   ### required for medium model
+pip install dill
+
+7. create app from myapp.spec
+pyinstaller myapp.spec
+
+8. get build app
+copy best.pt yolo.jpg objects.txt in build dir and compress all. This is the app.
