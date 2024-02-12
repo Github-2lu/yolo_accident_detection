@@ -33,9 +33,9 @@ model = YOLO('best.pt')
 video_paused = False
 
 # Global variables for email sending
-sender_email = "sudipdatta2002@gmail.com"
-receiver_email = "2021csb006.sudip@students.iiests.ac.in"
-sender_password = "pahifrmjjjwahdnr"
+sender_email = "###sender_email"
+receiver_email = "###receiver email"
+sender_password = "###sender password"
 smtp_port = 587
 smtp_server = "smtp.gmail.com"
 subject = "Accident detected"
